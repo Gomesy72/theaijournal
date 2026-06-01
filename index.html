@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The AI Journal - AI News & Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Noise Texture Overlay -->
+    <div class="noise-overlay"></div>
+
+    <header class="masthead">
+        <div class="container">
+            <div class="masthead-inner">
+                <div class="masthead-left">
+                    <span class="masthead-date" id="current-date"></span>
+                    <span class="masthead-issue">AI Daily Brief</span>
+                </div>
+                <div class="masthead-center">
+                    <div class="masthead-logo">AIJ</div>
+                    <h1 class="masthead-title">The AI Journal</h1>
+                    <div class="masthead-tagline">AI-Curated News &middot; Human-Verified</div>
+                </div>
+                <div class="masthead-right">
+                    <a href="#newsletter" class="btn-subscribe">Subscribe &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="site-nav">
+        <div class="container">
+            <div class="site-nav-inner">
+                <a href="index.html">Home</a>
+                <a href="#ai-news">AI News</a>
+                <a href="#robotics">Robotics</a>
+                <a href="#medicine">Medicine</a>
+                <a href="#jobs">Jobs</a>
+                <a href="#ubi">UBI</a>
+                <a href="#about">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-grid">
+                    <article class="hero-card hero-main">
+                        <span class="hero-tag">Breaking</span>
+                        <h2 class="hero-title">OpenAI Announces GPT-5: Multimodal AI That Can See, Hear, and Reason</h2>
+                        <p class="hero-excerpt">The next generation of large language models promises to bridge the gap between narrow AI and general intelligence. Here's what it means for society.</p>
+                        <div class="hero-meta">
+                            <span>AI Research</span>
+                            <span>12 min read</span>
+                            <span>June 2, 2026</span>
+                        </div>
+                        <a href="ai-news-gpt5-20260602.html" class="btn-hero">Read Full Story &rarr;</a>
+                    </article>
+                    
+                    <div class="hero-side">
+                        <article class="side-card">
+                            <span class="side-tag">Robotics</span>
+                            <h3 class="side-title">Boston Dynamics' New Humanoid Can Assemble Furniture</h3>
+                            <p class="side-excerpt">Atlas 2.0 demonstrates unprecedented dexterity in household tasks.</p>
+                            <a href="robotics-atlas2-20260602.html" class="side-card-link">Read &rarr;</a>
+                        </article>
+                        
+                        <article class="side-card">
+                            <span class="side-tag">Medicine</span>
+                            <h3 class="side-title">AI Diagnoses Cancer 40% Faster Than Pathologists</h3>
+                            <p class="side-excerpt">New study shows deep learning models outperform human experts in early detection.</p>
+                            <a href="medicine-cancer-ai-20260602.html" class="side-card-link">Read &rarr;</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AI News Grid -->
+            <section class="articles-section" id="ai-news">
+                <div class="section-header">
+                    <h2 class="section-title">AI News & Breakthroughs</h2>
+                    <p class="section-subtitle">The latest developments in artificial intelligence research and industry</p>
+                </div>
+                
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <span class="article-tag">Research</span>
+                        <h3 class="article-card-title">Google DeepMind's AlphaFold 3 Predicts All Biomolecules</h3>
+                        <p class="article-card-excerpt">Protein folding AI now handles DNA, RNA, and small molecules with 90% accuracy.</p>
+                        <div class="article-card-meta">
+                            <span>June 1, 2026</span>
+                            <span>8 min read</span>
+                        </div>
+                        <a href="ai-news-alphafold3-20260601.html" class="card-link">Read &rarr;</a>
+                    </article>
+                    
+                    <article class="article-card">
+                        <span class="article-tag">Industry</span>
+                        <h3 class="article-card-title">Apple Integrates LLM Into Siri: Goodbye, Dumb Assistant</h3>
+                        <p class="article-card-excerpt">iOS 19 brings on-device language models that actually understand context.</p>
+                        <div class="article-card-meta">
+                            <span>May 31, 2026</span>
+                            <span>6 min read</span>
+                        </div>
+                        <a href="ai-news-apple-siri-20260531.html" class="card-link">Read &rarr;</a>
+                    </article>
+                    
+                    <article class="article-card">
+                        <span class="article-tag">Regulation</span>
+                        <h3 class="article-card-title">EU Passes AI Act 2.0: Stricter Rules for Foundation Models</h3>
+                        <p class="article-card-excerpt">New regulations require transparency reports and bias audits for all LLMs.</p>
+                        <div class="article-card-meta">
+                            <span>May 30, 2026</span>
+                            <span>10 min read</span>
+                        </div>
+                        <a href="ai-news-eu-aiact-20260530.html" class="card-link">Read &rarr;</a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Robotics Section -->
+            <section class="articles-section" id="robotics">
+                <div class="section-header">
+                    <h2 class="section-title">Robotics & Automation</h2>
+                    <p class="section-subtitle">Machines that think, move, and transform industries</p>
+                </div>
+                
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <span class="article-tag">Manufacturing</span>
+                        <h3 class="article-card-title">Tesla's Optimus Robot Enters Production: $20,000 Per Unit</h3>
+                        <p class="article-card-excerpt">Humanoid robots are now cheaper than entry-level cars. What happens to factory jobs?</p>
+                        <div class="article-card-meta">
+                            <span>June 2, 2026</span>
+                            <span>9 min read</span>
+                        </div>
+                        <a href="robotics-tesla-optimus-20260602.html" class="card-link">Read &rarr;</a>
+                    </article>
+                    
+                    <article class="article-card">
+                        <span class="article-tag">Agriculture</span>
+                        <h3 class="article-card-title">AI-Powered Tractors Work 24/7: The End of Farm Labor?</h3>
+                        <p class="article-card-excerpt">John Deere's autonomous fleet raises questions about rural employment.</p>
+                        <div class="article-card-meta">
+                            <span>June 1, 2026</span>
+                            <span>7 min read</span>
+                        </div>
+                        <a href="robotics-farming-ai-20260601.html" class="card-link">Read &rarr;</a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Medicine Section -->
+            <section class="articles-section" id="medicine">
+                <div class="section-header">
+                    <h2 class="section-title">AI in Medicine</h2>
+                    <p class="section-subtitle">Algorithms that heal, diagnose, and extend life</p>
+                </div>
+                
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <span class="article-tag">Breakthrough</span>
+                        <h3 class="article-card-title">AI-Designed Drug Cures Alzheimer's in Mice</h3>
+                        <p class="article-card-excerpt">Insilico Medicine's generative AI creates novel compound that clears amyloid plaques.</p>
+                        <div class="article-card-meta">
+                            <span>June 2, 2026</span>
+                            <span>11 min read</span>
+                        </div>
+                        <a href="medicine-alzheimers-ai-20260602.html" class="card-link">Read &rarr;</a>
+                    </article>
+                    
+                    <article class="article-card">
+                        <span class="article-tag">Surgery</span>
+                        <h3 class="article-card-title">Robot Surgeons Perform 1 Million Operations Autonomously</h3>
+                        <p class="article-card-excerpt">Da Vinci XI achieves milestone with zero human intervention in routine procedures.</p>
+                        <div class="article-card-meta">
+                            <span>May 31, 2026</span>
+                            <span>8 min read</span>
+                        </div>
+                        <a href="medicine-robot-surgery-20260531.html" class="card-link">Read &rarr;</a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Jobs Section -->
+            <section class="articles-section" id="jobs">
+                <div class="section-header">
+                    <h2 class="section-title">Job Displacement</h2>
+                    <p class="section-subtitle">The workforce revolution and what it means for you</p>
+                </div>
+                
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <span class="article-tag">Economics</span>
+                        <h3 class="article-card-title">12 Million Jobs Lost to AI in 2025: The Full Report</h3>
+                        <p class="article-card-excerpt">McKinsey's latest analysis reveals which sectors are most vulnerable.</p>
+                        <div class="article-card-meta">
+                            <span>June 2, 2026</span>
+                            <span>14 min read</span>
+                        </div>
+                        <a href="jobs-displacement-report-20260602.html" class="card-link">Read &rarr;</a>
+                    </article>
+                    
+                    <article class="article-card">
+                        <span class="article-tag">Skills</span>
+                        <h3 class="article-card-title">The AI-Proof Jobs: What Skills Still Matter?</h3>
+                        <p class="article-card-excerpt">From emotional intelligence to creative problem-solving, here's what robots can't do.</p>
+                        <div class="article-card-meta">
+                            <span>May 30, 2026</span>
+                            <span>9 min read</span>
+                        </div>
+                        <a href="jobs-ai-proof-20260530.html" class="card-link">Read &rarr;</a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- UBI Section -->
+            <section class="articles-section" id="ubi">
+                <div class="section-header">
+                    <h2 class="section-title">UBI & Economic Policy</h2>
+                    <p class="section-subtitle">Universal Basic Income and the future of welfare</p>
+                </div>
+                
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <span class="article-tag">Policy</span>
+                        <h3 class="article-card-title">Finland's UBI Experiment: 5-Year Results Are In</h3>
+                        <p class="article-card-excerpt">The world's longest UBI trial shows surprising effects on employment and happiness.</p>
+                        <div class="article-card-meta">
+                            <span>June 1, 2026</span>
+                            <span>10 min read</span>
+                        </div>
+                        <a href="ubi-finland-results-20260601.html" class="card-link">Read &rarr;</a>
+                    </article>
+                    
+                    <article class="article-card">
+                        <span class="article-tag">Debate</span>
+                        <h3 class="article-card-title">HBI vs UBI: Which Model Survives the AI Economy?</h3>
+                        <p class="article-card-excerpt">Human Bioethics Income ties welfare to biological markers. Is it the future?</p>
+                        <div class="article-card-meta">
+                            <span>May 29, 2026</span>
+                            <span>12 min read</span>
+                        </div>
+                        <a href="ubi-hbi-debate-20260529.html" class="card-link">Read &rarr;</a>
+                    </article>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">AIJ</div>
+                    <p class="footer-desc">The AI Journal covers artificial intelligence, robotics, automation, and their impact on society. Published daily with rigorous fact-checking.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Sections</h4>
+                    <ul>
+                        <li><a href="#ai-news">AI News</a></li>
+                        <li><a href="#robotics">Robotics</a></li>
+                        <li><a href="#medicine">Medicine</a></li>
+                        <li><a href="#jobs">Jobs</a></li>
+                        <li><a href="#ubi">UBI</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">About</h4>
+                    <ul>
+                        <li><a href="#about">Our Mission</a></li>
+                        <li><a href="#about">Editorial Process</a></li>
+                        <li><a href="#about">Sources & Methods</a></li>
+                        <li><a href="#about">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter" id="newsletter">
+                    <h4 class="footer-heading">AI Daily Brief</h4>
+                    <p>Get the most important AI news in your inbox every morning. No fluff, just facts.</p>
+                    <form class="newsletter-form" action="https://app.kit.com/forms/9441355/subscriptions" method="post">
+                        <input type="email" name="email_address" placeholder="your@email.com" required class="newsletter-input">
+                        <button type="submit" class="btn-newsletter">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 The AI Journal. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="medical.html">Medical Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set current date
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', { 
+            weekday: 'long', 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+    </script>
+
+</body>
+</html>
