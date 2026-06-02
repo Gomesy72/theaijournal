@@ -592,6 +592,80 @@ a:hover {
     color: var(--color-accent);
 }
 
+/* Archive Styles */
+.archive-month {
+    margin-bottom: 2rem;
+}
+
+.archive-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    align-items: baseline;
+}
+
+.archive-date {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    min-width: 100px;
+}
+
+.archive-link {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    flex: 1;
+    min-width: 200px;
+}
+
+.archive-link:hover {
+    color: var(--color-accent);
+}
+
+.archive-tag {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    background: var(--color-accent-glow);
+    color: var(--color-accent);
+    border-radius: var(--radius-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.archive-read {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+}
+
+.archive-badge {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    background: var(--color-surface-raised);
+    color: var(--color-text-muted);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-border);
+}
+
+.archive-note {
+    font-style: italic;
+    color: var(--color-text-secondary);
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    background: var(--color-surface-raised);
+    border-left: 3px solid var(--color-accent);
+    border-radius: var(--radius-sm);
+}
+
+.archive-footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: var(--color-surface-raised);
+    border-radius: var(--radius-md);
+    text-align: center;
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
     .hero-grid {
